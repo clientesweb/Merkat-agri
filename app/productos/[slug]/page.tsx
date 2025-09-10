@@ -10,7 +10,7 @@ const products = [
     id: 1,
     name: "OPTIMA 155",
     brand: "ORSI",
-    image: "/images/products/optima-155.webp",
+    image: "/images/products/orsi-optima.jpeg",
     slug: "orsi-optima-155",
     category: "Trituradoras",
     shortDescription:
@@ -49,7 +49,7 @@ const products = [
     id: 2,
     name: "OPTIMA 180",
     brand: "ORSI",
-    image: "/images/products/optima-180.webp",
+    image: "/images/products/orsi-optima.jpeg",
     slug: "orsi-optima-180",
     category: "Trituradoras",
     shortDescription:
@@ -88,7 +88,7 @@ const products = [
     id: 3,
     name: "WLC",
     brand: "ORSI",
-    image: "/images/products/wlc-orsi.webp",
+    image: "/images/products/orsi-wlc.jpeg",
     slug: "orsi-wlc",
     category: "Trituradoras",
     shortDescription:
@@ -126,7 +126,7 @@ const products = [
     id: 4,
     name: "WPG",
     brand: "ORSI",
-    image: "/images/products/wpg-orsi.webp",
+    image: "/images/products/orsi-wpg.jpeg",
     slug: "orsi-wpg",
     category: "Trituradoras",
     shortDescription: "Trituradora trasera con rotor equilibrado. Para ramas hasta 8 cm. Doble bastidor de 6mm.",
@@ -163,7 +163,7 @@ const products = [
     id: 5,
     name: "KING EXTRA",
     brand: "ORSI",
-    image: "/images/products/king-extra-orsi.webp",
+    image: "/images/products/orsi-king-extra.jpeg",
     slug: "orsi-king-extra",
     category: "Trituradoras",
     shortDescription: "Trituradora trasera con rotor equilibrado. Para ramas hasta 12 cm. Doble bastidor Hardox.",
@@ -200,7 +200,7 @@ const products = [
     id: 6,
     name: "FRUIT EXTRA",
     brand: "ORSI",
-    image: "/images/products/fruit-extra-orsi.webp",
+    image: "/images/products/orsi-fruit-extra.jpeg",
     slug: "orsi-fruit-extra",
     category: "Trituradoras",
     shortDescription:
@@ -238,7 +238,7 @@ const products = [
     id: 7,
     name: "VULCANIC",
     brand: "ORSI",
-    image: "/images/products/vulcanic-orsi.webp",
+    image: "/images/products/orsi-vulcanic.jpeg",
     slug: "orsi-vulcanic",
     category: "Trituradoras",
     shortDescription:
@@ -276,7 +276,7 @@ const products = [
     id: 8,
     name: "ENERGY 105",
     brand: "ORSI",
-    image: "/images/products/energy-105-orsi.webp",
+    image: "/images/products/orsi-energy.jpeg",
     slug: "orsi-energy-105",
     category: "Trituradoras",
     shortDescription:
