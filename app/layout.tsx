@@ -20,9 +20,9 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   title: "Merkat Agri | Distribuidor Oficial ORSI - Maquinaria Agrícola Italiana",
   description:
-    "Merkat Agri ofrece al agricultor mexicano equipos agrícolas ORSI de la más avanzada tecnología italiana. Especializados en trituración y laboreo del suelo desde 1979.",
+    "Merkat Agri ofrece al agricultor argentino equipos agrícolas ORSI de la más avanzada tecnología italiana. Especializados en trituración y laboreo del suelo desde 1979.",
   keywords:
-    "maquinaria agrícola, ORSI, Merkat Agri, implementos agrícolas, tecnología italiana, trituración suelo, maquinaria México, equipos ORSI, agro, campo mexicano",
+    "maquinaria agrícola, ORSI, Merkat Agri, implementos agrícolas, tecnología italiana, trituración suelo, maquinaria Argentina, equipos ORSI, agro, campo argentino",
   authors: [{ name: "Merkat Agri" }],
   creator: "Merkat Agri",
   publisher: "Merkat Agri",
@@ -37,12 +37,12 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "es_MX",
+    locale: "es_AR",
     url: "https://merkat-agri.vercel.app",
     siteName: "Merkat Agri - Distribuidor Oficial ORSI",
     title: "Merkat Agri | Distribuidor Oficial ORSI - Maquinaria Agrícola Italiana",
     description:
-      "Merkat Agri ha nacido para ofrecer al agricultor mexicano los equipos agrícolas ORSI de la más avanzada tecnología italiana y la mayor calidad.",
+      "Merkat Agri ha nacido para ofrecer al agricultor argentino los equipos agrícolas ORSI de la más avanzada tecnología italiana y la mayor calidad.",
     images: [
       {
         url: "/images/banner-promocional-merkat-agri.webp",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Merkat Agri | Distribuidor Oficial ORSI - Maquinaria Agrícola Italiana",
-    description: "Equipos agrícolas ORSI de tecnología italiana para el campo mexicano desde 1979.",
+    description: "Equipos agrícolas ORSI de tecnología italiana para el campo argentino desde 1979.",
     images: ["/images/banner-promocional-merkat-agri.webp"],
   },
   alternates: {

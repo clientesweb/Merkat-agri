@@ -47,7 +47,7 @@ export default function Header() {
             {/* Desktop right navigation */}
             <div className="flex items-center space-x-3">
               <a
-                href="https://www.facebook.com/merkatmex/"
+                href="https://www.facebook.com/merkatagri"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#1e1d1c] hover:text-[#581f0b] transition-colors duration-200"
@@ -67,7 +67,7 @@ export default function Header() {
                 </svg>
               </a>
               <a
-                href="https://www.tiktok.com/@merkatagrimexico"
+                href="https://www.tiktok.com/@merkatagri"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#1e1d1c] hover:text-[#581f0b] transition-colors duration-200"
@@ -137,10 +137,10 @@ export default function Header() {
               <a href="/" className="block">
                 <Image
                   src="/images/merkat-agri-logo-new.webp"
-                  alt="Merkat Agri - Distribuidor Oficial ORSI"
-                  width={280}
-                  height={84}
-                  className="h-12 sm:h-16 lg:h-20 xl:h-24 2xl:h-28 w-auto"
+                  alt="Merkat Agri - Distribuidor Oficial ORSI Argentina"
+                  width={400}
+                  height={120}
+                  className="h-20 sm:h-24 lg:h-28 xl:h-32 2xl:h-36 w-auto"
                   priority
                 />
               </a>
@@ -257,7 +257,7 @@ export default function Header() {
                 <div className="px-4 sm:px-6 py-4 sm:py-6 border-t border-gray-100 bg-gradient-to-r from-gray-50 to-white">
                   <div className="flex items-center justify-center space-x-6">
                     <a
-                      href="https://www.facebook.com/merkatmex/"
+                      href="https://www.facebook.com/merkatagri"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-500 hover:text-[#eeb010] transition-all duration-300 hover:scale-110"
@@ -277,7 +277,7 @@ export default function Header() {
                       </svg>
                     </a>
                     <a
-                      href="https://www.tiktok.com/@merkatagrimexico"
+                      href="https://www.tiktok.com/@merkatagri"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-500 hover:text-[#eeb010] transition-all duration-300 hover:scale-110"

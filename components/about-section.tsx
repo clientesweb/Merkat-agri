@@ -15,13 +15,13 @@ export default function AboutSection() {
               </span>{" "}
               para el{" "}
               <span className="text-[#b8860b] font-bold" style={{ textShadow: "1px 1px 2px rgba(0,0,0,0.3)" }}>
-                campo mexicano
+                campo argentino
               </span>
             </h2>
 
             <div className="space-y-4 text-base sm:text-lg lg:text-xl xl:text-2xl text-gray-700 leading-relaxed lg:leading-relaxed xl:leading-relaxed font-sans">
               <p>
-                Merkat Agri ha nacido para ofrecer al agricultor mexicano los equipos agrícolas de la más avanzada
+                Merkat Agri ha nacido para ofrecer al agricultor argentino los equipos agrícolas de la más avanzada
                 tecnología y la mayor calidad, que le permitan tener mayor productividad en su actividad agrícola.
               </p>
 
@@ -31,8 +31,8 @@ export default function AboutSection() {
               </p>
 
               <p>
-                Nuestros equipos se distinguen por su alta calidad y probada funcionalidad en los campos de México y en
-                Norte América donde ORSI tiene su almacén de máquinas y repuestos.
+                Nuestros equipos se distinguen por su alta calidad y probada funcionalidad en los campos de Argentina y
+                en América donde ORSI tiene su almacén de máquinas y repuestos.
               </p>
             </div>
 
@@ -56,7 +56,7 @@ export default function AboutSection() {
             <div className="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3]">
               <Image
                 src="/images/sobre-nosotros.webp"
-                alt="Desmalezadora ORSI - Tecnología italiana para el campo mexicano"
+                alt="Desmalezadora ORSI - Tecnología italiana para el campo argentino"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"

@@ -7,24 +7,27 @@ const products = [
     name: "OPTIMA 155/180",
     brand: "ORSI",
     image: "/images/products/orsi-optima.jpeg",
-    description: "Trituradora trasera con martillos para césped, poda y ramas hasta 4cm. Rango: 25-40 HP",
+    description: "Trituradora fija con martillos para césped, poda y ramas hasta 4cm. Rango: 25-40 HP",
     slug: "orsi-optima-155",
+    category: "Trituradoras Fijas",
   },
   {
     id: 2,
     name: "WPG",
     brand: "ORSI",
     image: "/images/products/orsi-wpg.jpeg",
-    description: "Trituradora trasera con rotor balanceado electrónicamente. Rango: 65-130 HP",
+    description: "Trituradora fija con rotor balanceado electrónicamente. Rango: 65-130 HP",
     slug: "orsi-wpg",
+    category: "Trituradoras Fijas",
   },
   {
     id: 3,
     name: "WLC",
     brand: "ORSI",
     image: "/images/products/orsi-wlc.jpeg",
-    description: "Trituradora trasera con martillos para viñedos y frutales. Rango: 25-70 HP",
+    description: "Trituradora fija con martillos para viñedos y frutales. Rango: 25-70 HP",
     slug: "orsi-wlc",
+    category: "Trituradoras Fijas",
   },
   {
     id: 4,
@@ -33,23 +36,45 @@ const products = [
     image: "/images/products/orsi-vulcanic.jpeg",
     description: "Trituradora lateral para limpieza de cunetas y taludes. Rango: 40-80 HP",
     slug: "orsi-vulcanic",
+    category: "Trituradoras Laterales",
   },
   {
     id: 5,
     name: "KING EXTRA",
     brand: "ORSI",
     image: "/images/products/orsi-king-extra.jpeg",
-    description: "Trituradora trasera con rotor balanceado para trabajos intensivos. Rango: 50-120 HP",
+    description: "Trituradora fija con rotor balanceado para trabajos intensivos. Rango: 50-120 HP",
     slug: "orsi-king-extra",
+    category: "Trituradoras Fijas",
   },
   {
-    id: 9,
+    id: 6,
     name: "COMPETITION GS",
     brand: "ORSI",
     image: "/images/products/orsi-competition-gs.jpeg",
     description:
       "Trituradora lateral con gran alcance para limpieza de muelles, zanjas y terraplenes. Rango: 60-100 HP",
     slug: "orsi-competition-gs",
+    category: "Trituradoras Laterales",
+  },
+  {
+    id: 7,
+    name: "S1 Desbrotadora",
+    brand: "VBC",
+    image: "/images/products/vbc-s1-spollonatrice.png",
+    description:
+      "Desbrotadora VBC con sistema de cables para eliminar brotes no deseados. Favorece plantas más saludables.",
+    slug: "vbc-s1-desbrotadora",
+    category: "Equipos Vitícolas",
+  },
+  {
+    id: 8,
+    name: "DK1 Deshojadora",
+    brand: "VBC",
+    image: "/images/products/vbc-dk1-deshojadora.jpeg",
+    description: "Deshojadora VBC con rodillos y aspiración. Mejora ventilación y calidad de la uva.",
+    slug: "vbc-dk1-deshojadora",
+    category: "Equipos Vitícolas",
   },
 ]
 
@@ -62,7 +87,8 @@ export default function FeaturedProducts() {
             Productos <span className="text-[#D2691E]">Destacados</span>
           </h2>
           <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4 font-sans">
-            Descubrí nuestra línea completa de trituradoras ORSI para todas tus necesidades agrícolas
+            Descubrí nuestra línea completa de trituradoras ORSI y equipos vitícolas VBC para todas tus necesidades
+            agrícolas
           </p>
         </div>
 
@@ -85,6 +111,11 @@ export default function FeaturedProducts() {
                     {product.brand}
                   </span>
                 </div>
+                <div className="absolute top-2 sm:top-4 right-2 sm:right-4">
+                  <span className="bg-[#ffdd02] text-black px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium font-sans">
+                    {product.category}
+                  </span>
+                </div>
               </div>
 
               <div className="p-4 sm:p-6">
@@ -105,7 +136,7 @@ export default function FeaturedProducts() {
                   </Link>
 
                   <a
-                    href={`https://wa.me/5492612210039?text=Hola%20Balboa%20Agromaquinas,%20me%20interesa%20obtener%20más%20información%20sobre%20${encodeURIComponent(product.name)}%20de%20${encodeURIComponent(product.brand)}.%20¿Podrían%20brindarme%20detalles%20sobre%20disponibilidad,%20precio%20y%20especificaciones%20técnicas?`}
+                    href={`https://wa.me/2622522760?text=Hola%20Merkat%20Agri,%20me%20interesa%20obtener%20más%20información%20sobre%20${encodeURIComponent(product.name)}%20de%20${encodeURIComponent(product.brand)}.%20¿Podrían%20brindarme%20detalles%20sobre%20disponibilidad,%20precio%20y%20especificaciones%20técnicas?`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#ffdd02] hover:bg-[#D2691E] hover:text-white text-black px-3 sm:px-4 py-2 rounded-lg font-medium transition-colors text-sm sm:text-base w-full sm:w-auto font-sans text-center"

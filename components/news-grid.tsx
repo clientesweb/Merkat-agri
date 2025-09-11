@@ -1,18 +1,74 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, MapPin, Users, Award } from "lucide-react"
+import { ArrowRight, Award, Calendar, Handshake } from "lucide-react"
 
 const newsArticles = [
   {
-    id: 1,
+    id: "feria-forestal-2025",
+    title: "PARTICIPACIÓN FERIA FORESTAL 2025",
+    excerpt:
+      "La 17ma FERIA FORESTAL ARGENTINA edición NEA – ENTRE RÍOS tiene previsto su realización del 06 al 09 de noviembre del 2025 en el predio de la Estación Experimental Agropecuaria del INTA CONCORDIA, ubicada sobre la Ruta Nacional 14 km 259 en la Ciudad de Concordia, Provincia de Entre Ríos, ARGENTINA.",
+    image: "/images/news/feria-forestal-banner.webp",
+    date: "Noviembre 2025",
+    category: "Eventos",
+    featured: true,
+    icon: <Calendar className="h-5 w-5" />,
+    content: `
+      <p>Merkat Agri participará en la 17ma Feria Forestal Argentina, el evento más importante del sector forestal en el país.</p>
+      
+      <h3>Detalles del evento:</h3>
+      <ul>
+        <li><strong>Fechas:</strong> 06 al 09 de noviembre de 2025</li>
+        <li><strong>Ubicación:</strong> Estación Experimental Agropecuaria del INTA CONCORDIA</li>
+        <li><strong>Dirección:</strong> Ruta Nacional 14 km 259, Concordia, Entre Ríos</li>
+        <li><strong>Enfoque:</strong> Tecnología forestal y maquinaria especializada</li>
+      </ul>
+      
+      <p>Estaremos presentando nuestra línea completa de equipos ORSI especializados para el sector forestal, incluyendo trituradoras forestales y brazos desbrozadores.</p>
+    `,
+  },
+  {
+    id: "visita-director-orsi",
+    title: "Visita del Director Comercial de ORSI Group a General San Martín, San Juan",
+    excerpt:
+      "Visitamos con el Director Comercial de Orsi Group el señor Alessandro Carini al municipio de General San Martín, en la provincia de San Juan, fuimos recibidos por las autoridades municipales, que adquirieron un brazo desbrozador ORSI.",
+    image: "/images/news/visita-director-orsi-7.jpeg",
+    date: "Junio 2025",
+    category: "Eventos",
+    featured: false,
+    icon: <Handshake className="h-5 w-5" />,
+    content: `
+      <p>Una visita histórica que refuerza nuestra alianza estratégica con ORSI Group y nuestro compromiso con el mercado argentino.</p>
+      
+      <h3>Actividades realizadas:</h3>
+      <ul>
+        <li><strong>Reunión con autoridades:</strong> Recibimiento oficial en el municipio de General San Martín</li>
+        <li><strong>Demostración de equipos:</strong> Presentación del brazo desbrozador ORSI adquirido</li>
+        <li><strong>Recorrido de campos:</strong> Evaluación de equipos en condiciones reales de trabajo</li>
+        <li><strong>Reuniones técnicas:</strong> Con ingenieros y productores de la región</li>
+        <li><strong>Planificación estratégica:</strong> Expansión en el mercado de San Juan</li>
+      </ul>
+      
+      <div class="image-gallery">
+        <img src="/images/news/visita-director-orsi-1.jpeg" alt="Grupo con Director Comercial ORSI" />
+        <img src="/images/news/visita-director-orsi-2.jpeg" alt="Demostración de equipos en campo" />
+        <img src="/images/news/visita-director-orsi-3.jpeg" alt="Brazo desbrozador ORSI en funcionamiento" />
+        <img src="/images/news/visita-director-orsi-4.jpeg" alt="Equipo trabajando en viñedos" />
+        <img src="/images/news/visita-director-orsi-5.jpeg" alt="Tractor con implemento ORSI" />
+        <img src="/images/news/visita-director-orsi-6.jpeg" alt="Presentación técnica a productores" />
+      </div>
+    `,
+  },
+  {
+    id: "orsi-innovacion-italiana",
     title: "ORSI: Innovación Italiana en Maquinaria Agrícola",
     excerpt:
       "Descubre la excelencia de las trituradoras ORSI, fabricadas en Italia con más de 40 años de experiencia en tecnología agrícola. Conoce por qué somos el distribuidor oficial en Argentina.",
-    image: "/images/nosotros-banner-principal.jpeg",
+    image: "/images/products/orsi-fruit-extra.jpeg",
     date: "Noviembre 2024",
     category: "Productos",
-    featured: true,
+    featured: false,
     icon: <Award className="h-5 w-5" />,
     content: `
       <p>Merkat Agri se enorgullece de ser el distribuidor oficial de ORSI en Argentina, trayendo la mejor tecnología italiana en trituradoras agrícolas.</p>
@@ -26,50 +82,6 @@ const newsArticles = [
       </ul>
       
       <p>Desde las series OPTIMA hasta los modelos KING EXTRA, cada trituradora ORSI representa la perfecta combinación entre tradición artesanal italiana y tecnología moderna.</p>
-    `,
-  },
-  {
-    id: 2,
-    title: "Nueva Línea ORSI FRUIT EXTRA: Especializada para Frutales",
-    excerpt:
-      "Presentamos la línea FRUIT EXTRA de ORSI, diseñada específicamente para el mantenimiento de cultivos frutales con tecnología de vanguardia y máxima eficiencia.",
-    image: "/images/products/orsi-fruit-extra.jpeg",
-    date: "Octubre 2024",
-    category: "Productos",
-    featured: false,
-    icon: <Users className="h-5 w-5" />,
-    content: `
-      <p>La nueva línea FRUIT EXTRA de ORSI está especialmente diseñada para el mantenimiento de cultivos frutales, ofreciendo precisión y eficiencia incomparables.</p>
-      
-      <h3>Características destacadas:</h3>
-      <ul>
-        <li><strong>Rotor balanceado:</strong> Tecnología italiana para máxima estabilidad</li>
-        <li><strong>Deflector ajustable:</strong> Control preciso del material triturado</li>
-        <li><strong>Rango de potencia:</strong> 60-150 HP para diferentes necesidades</li>
-        <li><strong>Construcción robusta:</strong> Diseñada para trabajo intensivo en frutales</li>
-      </ul>
-    `,
-  },
-  {
-    id: 3,
-    title: "Servicio Técnico Especializado ORSI en Mendoza",
-    excerpt:
-      "Merkat Agri amplía su servicio técnico especializado en equipos ORSI, ofreciendo mantenimiento, reparaciones y repuestos originales en toda la región de Cuyo.",
-    image: "/images/nosotros-4.jpeg",
-    date: "Septiembre 2024",
-    category: "Servicios",
-    featured: false,
-    icon: <MapPin className="h-5 w-5" />,
-    content: `
-      <p>Nuestro compromiso con la excelencia nos llevó a especializar completamente nuestro servicio técnico en equipos ORSI, garantizando el máximo rendimiento de tu inversión.</p>
-      
-      <h3>Servicios especializados:</h3>
-      <ul>
-        <li><strong>Mantenimiento preventivo:</strong> Programas personalizados para cada equipo</li>
-        <li><strong>Repuestos originales ORSI:</strong> Stock permanente de piezas genuinas</li>
-        <li><strong>Servicio a domicilio:</strong> Atención técnica en tu campo</li>
-        <li><strong>Capacitación técnica:</strong> Entrenamiento para operadores</li>
-      </ul>
     `,
   },
 ]
@@ -209,7 +221,7 @@ export default function NewsGrid() {
                 className="border-[#D2691E] text-[#D2691E] hover:bg-[#D2691E] hover:text-white transition-all duration-300 font-display font-semibold bg-transparent"
               >
                 <a
-                  href="https://wa.me/5492612210039?text=¡Hola! Me interesa recibir novedades de Merkat Agri sobre equipos ORSI."
+                  href="https://wa.me/2622522760?text=¡Hola! Me interesa recibir novedades de Merkat Agri sobre equipos ORSI."
                   target="_blank"
                   rel="noopener noreferrer"
                 >

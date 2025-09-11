@@ -7,9 +7,9 @@ import Footer from "@/components/footer"
 export const metadata: Metadata = {
   title: "Productos - Merkat Agri | Trituradoras ORSI de Alta Tecnología",
   description:
-    "Descubrí nuestra línea completa de trituradoras ORSI: OPTIMA, WLC, WPG, KING EXTRA, FRUIT EXTRA, VULCANIC y ENERGY. Tecnología italiana 100% made in Bologna.",
+    "Descubrí nuestra línea completa de trituradoras ORSI: Fijas, Laterales, Brazos Desbrozadores, Forestales y más. Tecnología italiana 100% made in Bologna.",
   keywords:
-    "trituradoras ORSI, maquinaria agrícola, OPTIMA, WLC, WPG, KING EXTRA, FRUIT EXTRA, VULCANIC, ENERGY, Bologna Italia",
+    "trituradoras ORSI, maquinaria agrícola, trituradoras fijas, trituradoras laterales, brazos desbrozadores, trituradoras forestales, Bologna Italia",
   openGraph: {
     title: "Productos - Merkat Agri",
     description: "Trituradoras ORSI de alta tecnología italiana para el agro",
@@ -18,84 +18,227 @@ export const metadata: Metadata = {
 }
 
 const products = [
+  // Trituradoras Fijas
   {
     id: 1,
-    name: "OPTIMA 155",
-    brand: "ORSI",
-    image: "/images/products/orsi-optima.jpeg",
-    description:
-      "Trituradora trasera con martillos. Recomendada para césped, poda y ramas hasta 3-4 cm. Rodillo auto-limpiante.",
-    slug: "orsi-optima-155",
-    category: "Trituradoras",
-  },
-  {
-    id: 2,
-    name: "OPTIMA 180",
-    brand: "ORSI",
-    image: "/images/products/orsi-optima.jpeg",
-    description:
-      "Trituradora trasera con martillos. Recomendada para césped, poda y ramas hasta 3-4 cm. Rodillo auto-limpiante.",
-    slug: "orsi-optima-180",
-    category: "Trituradoras",
-  },
-  {
-    id: 3,
     name: "WLC",
     brand: "ORSI",
     image: "/images/products/orsi-wlc.jpeg",
-    description:
-      "Trituradora trasera con martillos. Ideal para tractores 25-70 HP. Doble contra cuchillas y rueda libre.",
+    description: "Trituradora fija con martillos. Ideal para tractores 25-70 HP. Doble contra cuchillas y rueda libre.",
     slug: "orsi-wlc",
-    category: "Trituradoras",
+    category: "Trituradoras Fijas",
   },
   {
-    id: 4,
+    id: 2,
     name: "WPG",
     brand: "ORSI",
     image: "/images/products/orsi-wpg.jpeg",
-    description: "Trituradora trasera con rotor equilibrado. Para ramas hasta 8 cm. Doble bastidor de 6mm.",
+    description: "Trituradora fija con rotor equilibrado. Para ramas hasta 8 cm. Doble bastidor de 6mm.",
     slug: "orsi-wpg",
-    category: "Trituradoras",
+    category: "Trituradoras Fijas",
   },
   {
-    id: 5,
+    id: 3,
+    name: "DINAMIC",
+    brand: "ORSI",
+    image: "/images/products/orsi-dinamic-new.jpeg",
+    description:
+      "Desbrozadora compacta diseñada para espacios reducidos. Potencia requerida: 50-100 HP. Ancho de trabajo: 1,50 m. Cuchillas fijas y motor hidráulico para trituración de restos de poda.",
+    slug: "orsi-dinamic",
+    category: "Trituradoras Fijas",
+  },
+  {
+    id: 4,
     name: "KING EXTRA",
     brand: "ORSI",
     image: "/images/products/orsi-king-extra.jpeg",
-    description: "Trituradora trasera con rotor equilibrado. Para ramas hasta 12 cm. Doble bastidor Hardox.",
+    description: "Trituradora fija con rotor equilibrado. Para ramas hasta 12 cm. Doble bastidor Hardox.",
     slug: "orsi-king-extra",
-    category: "Trituradoras",
+    category: "Trituradoras Fijas",
+  },
+  {
+    id: 5,
+    name: "KING FORREST",
+    brand: "ORSI",
+    image: "/images/products/orsi-king-forrest-new.jpeg",
+    description:
+      "Desbrozadora de alta gama para trabajos intensivos en terrenos difíciles. Potencia requerida: 100-200 HP. Ancho de trabajo: 2,50 m. Rotor de alta resistencia con cuchillas fijas.",
+    slug: "orsi-king-forrest",
+    category: "Trituradoras Fijas",
   },
   {
     id: 6,
     name: "FRUIT EXTRA",
     brand: "ORSI",
     image: "/images/products/orsi-fruit-extra.jpeg",
-    description: "Trituradora trasera con rotor equilibrado. Para ramas hasta 13 cm. Bastidor monocasco Hardox 6mm.",
+    description: "Trituradora fija especializada para frutales. Para ramas hasta 13 cm. Bastidor monocasco Hardox 6mm.",
     slug: "orsi-fruit-extra",
-    category: "Trituradoras",
+    category: "Trituradoras Fijas",
   },
   {
     id: 7,
+    name: "VIRGIN L",
+    brand: "ORSI",
+    image: "/images/products/orsi-virgin-l-new.jpeg",
+    description:
+      "Trituradora reversible de alta resistencia con doble pick-up hidráulico. Potencia requerida: 80-120 HP. Ancho de trabajo: 1,80 m. Ideal para viñedos, huertos y olivares intensivos.",
+    slug: "orsi-virgin-l",
+    category: "Trituradoras Fijas",
+  },
+  {
+    id: 8,
+    name: "VIRGIN XL",
+    brand: "ORSI",
+    image: "/images/products/orsi-virgin-xl.jpeg",
+    description:
+      "Versión más robusta de la serie Virgin para tractores de mayor potencia. Potencia requerida: 110-180 HP. Ancho de trabajo: 1,80 m. Doble pick-up hidráulico y cuchillas fijas.",
+    slug: "orsi-virgin-xl",
+    category: "Trituradoras Fijas",
+  },
+
+  // Trituradoras Laterales
+  {
+    id: 9,
     name: "VULCANIC",
     brand: "ORSI",
     image: "/images/products/orsi-vulcanic.jpeg",
     description: "Trituradora lateral con inclinación hidráulica hasta 90°. Para limpieza de zanjas y terraplenes.",
     slug: "orsi-vulcanic",
-    category: "Trituradoras",
+    category: "Trituradoras Laterales",
   },
   {
-    id: 8,
-    name: "ENERGY 105",
+    id: 10,
+    name: "COMPETITION GS",
     brand: "ORSI",
-    image: "/images/products/orsi-energy.jpeg",
-    description: "Trituradora lateral con inclinación hidráulica. Para tractores 20-35 HP. Sistema auto-nivelador.",
-    slug: "orsi-energy-105",
-    category: "Trituradoras",
+    image: "/images/products/orsi-competition-gs.jpeg",
+    description:
+      "Trituradora lateral con gran alcance para limpieza de muelles, zanjas y terraplenes. Rango: 60-100 HP",
+    slug: "orsi-competition-gs",
+    category: "Trituradoras Laterales",
+  },
+  {
+    id: 11,
+    name: "PRIMATIST GS",
+    brand: "ORSI",
+    image: "/images/products/orsi-primatist-gs.jpeg",
+    description:
+      "Trituradora de uso profesional para desbroce en terrenos difíciles. Potencia requerida: 80-150 HP. Ancho de trabajo: 2,00 m. Rotor de alta resistencia con cuchillas fijas.",
+    slug: "orsi-primatist-gs",
+    category: "Trituradoras Laterales",
+  },
+  {
+    id: 12,
+    name: "MAGNUN GS",
+    brand: "ORSI",
+    image: "/images/products/orsi-magnun-gs-new.jpeg",
+    description:
+      "Trituradora de alta gama para trabajos intensivos en viñedos y huertos. Potencia requerida: 100-180 HP. Ancho de trabajo: 2,20 m. Rotor de alta resistencia con cuchillas fijas.",
+    slug: "orsi-magnun-gs",
+    category: "Trituradoras Laterales",
+  },
+
+  // Brazos Desbrozadores
+  {
+    id: 13,
+    name: "RIVER COMPACT RIO",
+    brand: "ORSI",
+    image: "/images/products/orsi-river-compact-rio.jpeg",
+    description:
+      "Trituradora compacta para trabajos en viñedos y huertos con espacios reducidos. Potencia requerida: 70-120 HP. Ancho de trabajo: 1,60 m. Rotor de alta resistencia con cuchillas fijas.",
+    slug: "orsi-river-compact-rio",
+    category: "Brazos Desbrozadores",
+  },
+  {
+    id: 14,
+    name: "PERFORMANCE PARALLELOGRAM",
+    brand: "ORSI",
+    image: "/images/products/orsi-performance-parallelogram.jpeg",
+    description:
+      "Desbrozadora hidráulica con brazo articulado tipo paralelogramo para mantenimiento de cunetas, setos y árboles. Potencia requerida: 45-100 HP. Movimiento hidráulico con rotación y válvula de seguridad.",
+    slug: "orsi-performance-paralelogram",
+    category: "Brazos Desbrozadores",
+  },
+  {
+    id: 15,
+    name: "LEADER GP",
+    brand: "ORSI",
+    image: "/images/products/orsi-leader-gp-new.jpeg",
+    description:
+      "Desbrozadora hidráulica con brazo articulado para mantenimiento de viñedos y huertos. Potencia requerida: 60-120 HP. Movimiento hidráulico con rotación y válvula de seguridad.",
+    slug: "orsi-leader-gp",
+    category: "Brazos Desbrozadores",
+  },
+
+  // Equipos Vitícolas VBC
+  {
+    id: 16,
+    name: "S1 Desbrotadora",
+    brand: "VBC",
+    image: "/images/products/vbc-s1-spollonatrice.png",
+    description:
+      "Desbrotadora VBC con sistema de cables de goma que arranca brotes suavemente. Reduce herbicidas y trabajo manual.",
+    slug: "vbc-s1-desbrotadora",
+    category: "Equipos Vitícolas",
+  },
+  {
+    id: 17,
+    name: "PJ Podadora 5 Discos",
+    brand: "VBC",
+    image: "/images/products/vbc-pj-potatrice-5-dischi.png",
+    description:
+      "Podadora de 5 discos VBC para cortes rápidos y precisos en ramas y sarmientos. Regulación hidráulica de altura.",
+    slug: "vbc-pj-podadora-5-discos",
+    category: "Equipos Vitícolas",
+  },
+  {
+    id: 18,
+    name: "P0 Podadora 8 Discos",
+    brand: "VBC",
+    image: "/images/products/vbc-p0-potatrice-8-dischi.jpeg",
+    description:
+      "Podadora en seco de 8 discos VBC para trabajos intensivos. Múltiples discos de corte para máxima eficiencia.",
+    slug: "vbc-p0-podadora-8-discos",
+    category: "Equipos Vitícolas",
+  },
+  {
+    id: 19,
+    name: "C0 Prepodadora",
+    brand: "VBC",
+    image: "/images/products/vbc-c0-prepodadora.jpeg",
+    description:
+      "Prepodadora VBC para poda de invierno. Cuchillas robustas para madera seca, preparando el viñedo para poda manual.",
+    slug: "vbc-c0-prepodadora",
+    category: "Equipos Vitícolas",
+  },
+  {
+    id: 20,
+    name: "R1 Barredor de Poda",
+    brand: "VBC",
+    image: "/images/products/vbc-r1-barredor.jpeg",
+    description:
+      "Barredor de poda VBC para limpiar entrehilado del viñedo. Cepillos resistentes con regulación hidráulica.",
+    slug: "vbc-r1-barredor-poda",
+    category: "Equipos Vitícolas",
+  },
+  {
+    id: 21,
+    name: "DK1 Deshojadora",
+    brand: "VBC",
+    image: "/images/products/vbc-dk1-deshojadora.jpeg",
+    description:
+      "Deshojadora VBC con sistema de rodillos y aspiración. Mejora ventilación y exposición al sol de los racimos.",
+    slug: "vbc-dk1-deshojadora",
+    category: "Equipos Vitícolas",
   },
 ]
 
-const categories = ["Todos", "Trituradoras"]
+const categories = [
+  "Todos",
+  "Trituradoras Fijas",
+  "Trituradoras Laterales",
+  "Brazos Desbrozadores",
+  "Equipos Vitícolas",
+]
 
 export default function ProductsPage() {
   return (
@@ -134,7 +277,7 @@ export default function ProductsPage() {
                 Ver Productos
               </a>
               <a
-                href="https://wa.me/5492612210039?text=Hola%20Merkat%20Agri,%20me%20interesa%20conocer%20más%20sobre%20las%20trituradoras%20ORSI%20y%20su%20tecnología%20italiana."
+                href="https://wa.me/2622522760?text=Hola%20Merkat%20Agri,%20me%20interesa%20conocer%20más%20sobre%20las%20trituradoras%20ORSI%20y%20su%20tecnología%20italiana."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-bold text-lg transition-colors font-display"
@@ -151,11 +294,23 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-gray-900 mb-4">
-              Línea Completa <span className="text-[#ffdd02]">ORSI</span>
+              Línea Completa <span className="text-[#ffdd02]">ORSI</span> y <span className="text-[#D2691E]">VBC</span>
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto font-sans">
-              Trituradoras de alta tecnología italiana para todas las necesidades del agro
+              Trituradoras de alta tecnología italiana y equipos vitícolas especializados para todas las necesidades del
+              agro
             </p>
+          </div>
+
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
+            {categories.map((category) => (
+              <button
+                key={category}
+                className="px-6 py-3 rounded-full border-2 border-[#D2691E] text-[#D2691E] hover:bg-[#D2691E] hover:text-white transition-colors font-medium font-sans"
+              >
+                {category}
+              </button>
+            ))}
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
@@ -179,7 +334,7 @@ export default function ProductsPage() {
                   </div>
                   <div className="absolute top-4 right-4">
                     <span className="bg-[#ffdd02] text-black px-3 py-1 rounded-full text-sm font-medium font-sans">
-                      Made in Italy
+                      {product.category}
                     </span>
                   </div>
                 </div>
@@ -200,7 +355,7 @@ export default function ProductsPage() {
                     </Link>
 
                     <a
-                      href={`https://wa.me/5492612210039?text=Hola%20Merkat%20Agri,%20me%20interesa%20obtener%20más%20información%20sobre%20${encodeURIComponent(product.name)}%20de%20${encodeURIComponent(product.brand)}.%20¿Podrían%20brindarme%20detalles%20sobre%20disponibilidad,%20precio%20y%20especificaciones%20técnicas?`}
+                      href={`https://wa.me/2622522760?text=Hola%20Merkat%20Agri,%20me%20interesa%20obtener%20más%20información%20sobre%20${encodeURIComponent(product.name)}%20de%20${encodeURIComponent(product.brand)}.%20¿Podrían%20brindarme%20detalles%20sobre%20disponibilidad,%20precio%20y%20especificaciones%20técnicas?`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-[#ffdd02] hover:bg-[#D2691E] hover:text-white text-black px-6 py-3 rounded-lg font-medium transition-colors w-full sm:w-auto text-center font-sans"

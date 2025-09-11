@@ -43,7 +43,7 @@ ${formData.message}
     const encodedMessage = encodeURIComponent(whatsappMessage)
 
     // Abrir WhatsApp con el mensaje predefinido
-    const whatsappUrl = `https://wa.me/5215512345678?text=${encodedMessage}`
+    const whatsappUrl = `https://wa.me/2622522760?text=${encodedMessage}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -78,9 +78,9 @@ ${formData.message}
                 </div>
                 <div>
                   <h3 className="font-display font-semibold text-lg text-gray-900 mb-1">Ubicación</h3>
-                  <p className="text-gray-600 font-sans">Ciudad de México</p>
-                  <p className="text-gray-600 font-sans">México</p>
-                  <p className="text-gray-500 text-sm font-sans mt-1">También con sede en Argentina</p>
+                  <p className="text-gray-600 font-sans">Cornelio Saavedra 44</p>
+                  <p className="text-gray-600 font-sans">La Consulta, Mendoza</p>
+                  <p className="text-gray-500 text-sm font-sans mt-1">Argentina</p>
                 </div>
               </div>
 
@@ -91,11 +91,8 @@ ${formData.message}
                 </div>
                 <div>
                   <h3 className="font-display font-semibold text-lg text-gray-900 mb-1">Teléfono</h3>
-                  <a
-                    href="tel:+5215512345678"
-                    className="text-gray-600 hover:text-[#D2691E] transition-colors font-sans"
-                  >
-                    +52 1 55 1234 5678
+                  <a href="tel:262252270" className="text-gray-600 hover:text-[#D2691E] transition-colors font-sans">
+                    262252270
                   </a>
                 </div>
               </div>
@@ -108,10 +105,10 @@ ${formData.message}
                 <div>
                   <h3 className="font-display font-semibold text-lg text-gray-900 mb-1">Email</h3>
                   <a
-                    href="mailto:info@merkatagrí.com"
+                    href="mailto:gsosa@merkatagri.com"
                     className="text-gray-600 hover:text-[#D2691E] transition-colors font-sans"
                   >
-                    info@merkatagrí.com
+                    gsosa@merkatagri.com
                   </a>
                 </div>
               </div>

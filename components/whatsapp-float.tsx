@@ -30,7 +30,7 @@ export default function WhatsAppFloat() {
         className="bg-[#25D366] hover:bg-[#20BA5A] text-white shadow-lg sm:shadow-xl lg:shadow-2xl hover:shadow-xl sm:hover:shadow-2xl lg:hover:shadow-3xl transition-all duration-300 rounded-full w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 lg:w-18 lg:h-18 xl:w-20 xl:h-20 p-0 group border-2 xs:border-3 sm:border-4 border-white"
         onClick={() =>
           window.open(
-            "https://wa.me/5492612210039?text=¡Hola! Me contacto desde la web de Merkat Agri. Me interesa recibir información sobre las trituradoras ORSI y sus servicios especializados.",
+            "https://wa.me/2622522760?text=¡Hola! Me contacto desde la web de Merkat Agri. Me interesa recibir información sobre las trituradoras ORSI y sus servicios especializados.",
             "_blank",
           )
         }

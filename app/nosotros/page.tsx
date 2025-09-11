@@ -13,7 +13,7 @@ export default function NosotrosPage() {
         <section className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden">
           <Image
             src="/images/nosotros-banner-principal.jpeg"
-            alt="ORSI - Wild to Survive - Tecnología italiana para el campo mexicano"
+            alt="ORSI - Wild to Survive - Tecnología italiana para el campo argentino"
             fill
             className="object-cover"
             priority
@@ -27,7 +27,7 @@ export default function NosotrosPage() {
                   Nosotros
                 </h1>
                 <p className="text-xl sm:text-2xl lg:text-3xl text-white/90 font-sans leading-relaxed">
-                  Tecnología italiana de vanguardia para revolucionar la agricultura mexicana
+                  Tecnología italiana de vanguardia para revolucionar la agricultura argentina
                 </p>
               </div>
             </div>
@@ -41,12 +41,12 @@ export default function NosotrosPage() {
               <div className="space-y-6">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-gray-900 leading-tight">
                   Tecnología <span className="text-[#eeb010]">italiana</span> para el{" "}
-                  <span className="text-[#dc2626]">campo mexicano</span>
+                  <span className="text-[#dc2626]">campo argentino</span>
                 </h2>
 
                 <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                   <p>
-                    Merkat Agri ha nacido para ofrecer al agricultor mexicano los equipos agrícolas de la más avanzada
+                    Merkat Agri ha nacido para ofrecer al agricultor argentino los equipos agrícolas de la más avanzada
                     tecnología y la mayor calidad, que le permitan tener mayor productividad en su actividad agrícola.
                   </p>
 
@@ -56,8 +56,8 @@ export default function NosotrosPage() {
                   </p>
 
                   <p>
-                    Nuestros equipos se distinguen por su alta calidad y probada funcionalidad en los campos de México y
-                    en Norte América donde ORSI tiene su almacén de máquinas y repuestos.
+                    Nuestros equipos se distinguen por su alta calidad y probada funcionalidad en los campos de
+                    Argentina y en América donde ORSI tiene su almacén de máquinas y repuestos.
                   </p>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function NosotrosPage() {
                 <h3 className="text-xl font-display font-bold text-gray-900 mb-4">Experiencia Global</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Más de 40 años de experiencia en el mercado internacional, adaptando tecnología europea a las
-                  necesidades mexicanas.
+                  necesidades argentinas.
                 </p>
               </div>
 
@@ -247,8 +247,8 @@ export default function NosotrosPage() {
                 <div className="space-y-4 text-lg text-gray-300 leading-relaxed">
                   <p>
                     Desde 1979, ORSI ha sido pionero en el desarrollo de maquinaria agrícola italiana de alta calidad.
-                    Como distribuidores oficiales en México, llevamos esta tradición de excelencia a los campos
-                    mexicanos.
+                    Como distribuidores oficiales en Argentina, llevamos esta tradición de excelencia a los campos
+                    argentinos.
                   </p>
 
                   <p>
@@ -257,8 +257,8 @@ export default function NosotrosPage() {
                   </p>
 
                   <p>
-                    Con almacenes estratégicos en Norteamérica, garantizamos disponibilidad inmediata de repuestos y
-                    soporte técnico especializado para maximizar la productividad de nuestros clientes.
+                    Con almacenes estratégicos en América, garantizamos disponibilidad inmediata de repuestos y soporte
+                    técnico especializado para maximizar la productividad de nuestros clientes.
                   </p>
                 </div>
 

@@ -58,7 +58,7 @@ export default function VideoBanner() {
                   "3px 3px 6px rgba(0,0,0,0.95), 1px 1px 3px rgba(0,0,0,0.9), 0 0 15px rgba(0,0,0,0.8), 1px 1px 2px rgba(0,0,0,1)",
               }}
             >
-              Merkat Agri ofrece al agricultor mexicano los equipos ORSI de la más avanzada tecnología italiana
+              Merkat Agri ofrece al agricultor argentino los equipos ORSI de la más avanzada tecnología italiana
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">

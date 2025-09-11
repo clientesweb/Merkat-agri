@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Phone, Mail, MapPin } from "lucide-react"
+import { Phone, Mail, MapPin, Linkedin as LinkedIn } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -10,21 +10,22 @@ export default function Footer() {
           {/* Logo y descripción */}
           <div className="sm:col-span-2 lg:col-span-1 text-center sm:text-left">
             <div className="mb-4 sm:mb-6">
+              {/* Actualizado logo a nuevo formato webp y aumentado tamaño */}
               <Image
                 src="/images/merkat-agri-logo-new.webp"
-                alt="Merkat Agri - Distribuidor Oficial ORSI"
-                width={200}
-                height={60}
-                className="w-40 sm:w-48 h-auto mx-auto sm:mx-0"
+                alt="Merkat Agri - Distribuidor Oficial ORSI Argentina"
+                width={280}
+                height={84}
+                className="w-60 sm:w-70 h-auto mx-auto sm:mx-0"
               />
             </div>
             <p className="text-white/80 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
-              Merkat Agri ha nacido por ofrecer al agricultor mexicano los equipos agrícolas de la más avanzada
+              Merkat Agri ha nacido por ofrecer al agricultor argentino los equipos agrícolas de la más avanzada
               tecnología y la mayor calidad ORSI.
             </p>
             <div className="flex justify-center sm:justify-start space-x-3 sm:space-x-4">
               <a
-                href="https://www.facebook.com/merkatmex/"
+                href="https://www.facebook.com/merkatagri"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#581f0b] hover:bg-[#eeb010] text-white p-2 sm:p-3 rounded-full transition-colors duration-300"
@@ -44,7 +45,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.tiktok.com/@merkatagrimexico"
+                href="https://www.tiktok.com/@merkatagri"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#581f0b] hover:bg-[#eeb010] text-white p-2 sm:p-3 rounded-full transition-colors duration-300"
@@ -52,6 +53,14 @@ export default function Footer() {
                 <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
                 </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/company/merkatagriargentina/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#581f0b] hover:bg-[#eeb010] text-white p-2 sm:p-3 rounded-full transition-colors duration-300"
+              >
+                <LinkedIn className="w-4 h-4 sm:w-5 sm:h-5 text-[#eeb010] flex-shrink-0" />
               </a>
             </div>
           </div>
@@ -116,7 +125,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="text-white/60 text-xs sm:text-sm leading-relaxed">
-                DISTRIBUIDOR EXCLUSIVO DE EQUIPOS ORSI EN MÉXICO
+                DISTRIBUIDOR EXCLUSIVO DE EQUIPOS ORSI EN ARGENTINA
               </li>
               <li className="text-white/60 text-xs sm:text-sm leading-relaxed">TECNOLOGÍA ITALIANA DESDE 1979</li>
             </ul>
@@ -128,24 +137,23 @@ export default function Footer() {
             <div className="space-y-3 sm:space-y-4">
               <div className="flex items-center justify-center sm:justify-start space-x-3">
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-[#eeb010] flex-shrink-0" />
-                <span className="text-white/80 text-sm sm:text-base">+52 55 4134 1587</span>
+                <span className="text-white/80 text-sm sm:text-base">262252270</span>
               </div>
               <div className="flex items-start justify-center sm:justify-start space-x-3">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-[#eeb010] flex-shrink-0 mt-0.5" />
                 <div className="flex flex-col space-y-1">
-                  <span className="text-white/80 text-sm sm:text-base">info@merkatagri.com</span>
-                  <span className="text-white/80 text-sm sm:text-base">ventascdmx@merkatagri.com</span>
+                  <span className="text-white/80 text-sm sm:text-base">gsosa@merkatagri.com</span>
+                  <span className="text-white/80 text-sm sm:text-base">servicio@merkatagri.com</span>
+                  <span className="text-white/80 text-sm sm:text-base">ventasarg@merkatagri.com</span>
                 </div>
               </div>
               <div className="flex items-start justify-center sm:justify-start space-x-3">
                 <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[#eeb010] flex-shrink-0 mt-1" />
                 <div className="flex flex-col space-y-1">
-                  <span className="text-white/80 font-medium text-sm sm:text-base">MÉXICO</span>
-                  <span className="text-white/60 text-xs sm:text-sm">CIUDAD DE MÉXICO</span>
-                  <span className="text-white/80 font-medium text-sm sm:text-base mt-2">ARGENTINA</span>
+                  <span className="text-white/80 font-medium text-sm sm:text-base">ARGENTINA</span>
                   <span className="text-white/60 text-xs sm:text-sm">CORNELIO SAAVEDRA 44</span>
                   <span className="text-white/60 text-xs sm:text-sm">LA CONSULTA, MENDOZA</span>
-                  <span className="text-white/60 text-xs sm:text-sm">+54 9 2622 522760</span>
+                  <span className="text-white/60 text-xs sm:text-sm">262252270</span>
                 </div>
               </div>
             </div>

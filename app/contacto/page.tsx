@@ -7,7 +7,7 @@ import Footer from "@/components/footer"
 export const metadata: Metadata = {
   title: "Contacto | Merkat Agri",
   description:
-    "Contáctanos para consultas sobre trituradoras ORSI, maquinaria agrícola y servicios técnicos especializados. Estamos en México con sede en Argentina.",
+    "Contáctanos para consultas sobre trituradoras ORSI, maquinaria agrícola y servicios técnicos especializados en Argentina.",
   openGraph: {
     title: "Contacto | Merkat Agri",
     description: "Contáctanos para consultas sobre trituradoras ORSI y maquinaria agrícola especializada.",
